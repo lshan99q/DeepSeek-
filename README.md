@@ -38,3 +38,15 @@ DeepSeek 卧底游戏 - AI 语言推理对战
    C --> D{游戏继续?}
    D -->|是| A
    D -->|否| E[游戏结束]
+
+
+
+
+
+
+   gpu_snakes/
+├── Cargo.toml
+├── shaders/
+│   └── compute.wgsl
+└── src/
+    └── main.rs
